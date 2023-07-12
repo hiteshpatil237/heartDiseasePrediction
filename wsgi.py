@@ -16,4 +16,4 @@ if project_home not in sys.path:
 from app import app as application  # noqa
 
 if __name__ == "__main__":
-    app.run()
+    application.run()
